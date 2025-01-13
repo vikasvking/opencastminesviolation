@@ -1,0 +1,13 @@
+train: C:\Users\vikas\Documents\use of ai\to merge\TTM.v1i.yolov8\train\images
+val: C:\Users\vikas\Documents\use of ai\to merge\TTM.v1i.yolov8\valid\images
+test: C:\Users\vikas\Documents\use of ai\to merge\TTM.v1i.yolov8\test\images
+
+nc: 14
+names: ['bull_dozer/loader/grader', 'dump_truck', 'dump_truck', 'dump_truck', 'excavator', 'bull_dozer/loader/grader', 'bull_dozer/loader/grader', 'hip_of_soil', 'light_vehicle', 'person', 'road_sign', 'dump_truck', 'safety_helmet', 'safety_jacket']
+
+roboflow:
+  workspace: object-nfasp
+  project: ttm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-nfasp/ttm/dataset/1
